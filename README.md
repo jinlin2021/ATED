@@ -3,7 +3,7 @@
 
 ## Overview
 
-<p align="center"><img src="./figures/framework.png" alt="framework" width="900px" /></p>
+<p align="center"><img src="figures/framework.png" alt="framework" width="900px" /></p>
 
 
 Large Vision-Language Models (LVLMs) have recently achieved impressive results in multimodal tasks such as image captioning and visual question answering. However, they remain prone to object hallucination—generating descriptions of nonexistent or misidentified objects. Prior work have partially mitigated this via auxiliary training objectives or external modules, but often lacks scalability, adaptability, or model independence.
