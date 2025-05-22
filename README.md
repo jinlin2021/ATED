@@ -95,7 +95,7 @@ Besides, it needs you to prepare the following checkpoints of 7B base models:
 
 ### POPE
 ```bash
-python POPE_dataset_exp.py --model_path1 MODEL_1 --model_path2 MODEL_2 --image-folder /MSCOCO/val2014 --question-file  './POPE/coco/coco_pope_random.json' --answers-file ' ' --use-cd --noise-step 999  --seed 52 --fuse uncertainty
+python POPE_dataset_exp.py --model_path1 MODEL_1 --model_path2 MODEL_2 --image-folder /MSCOCO/val2014 --question-file  './POPE/coco/coco_pope_random.json' --answers-file ' ' --use-cd --noise-step 999 --fuse uncertainty
 ```
 Result on `POPE` split:
 
@@ -116,7 +116,7 @@ Result on `POPE` split:
 ### CHAIR
 
 ```bash
-python CHAIR_dataset_exp.py --model_path1 MODEL_1 --model_path2 MODEL_2 --model_path3 MODEL_3 --image-folder /MSCOCO/val2014 --output_file '' --answers-file ' ' --use-cd --max_new_tokens 512 --noise-step 500  --min_tokens 128 --max_tokens 300 --cd_alpha 1.0 --seed 52 --fuse uncertainty
+python CHAIR_dataset_exp.py --model_path1 MODEL_1 --model_path2 MODEL_2 --model_path3 MODEL_3 --image-folder /MSCOCO/val2014 --output_file '' --answers-file ' ' --use-cd --max_new_tokens 512 --noise-step 500  --min_tokens 128 --max_tokens 300 --cd_alpha 1.0 --fuse uncertainty
 ```
 Note: Please check out our released results in `output` for reproduction.
 
