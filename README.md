@@ -16,6 +16,7 @@ Experiments on standard hallucination detection benchmarks demonstrate that ATED
 
 
 ```
+cd ATED
 conda env create -f environment.yml
 conda activate ated
 python -m pip install -e transformers
